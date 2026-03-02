@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE PARA PESQUISAR NÚMEROS DE TODOS OS PAÍSES</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card: #1e293b;
+            --text: #f8fafc;
+            --accent: #60a5fa;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 60px 20px;
+        }
+
+        .container { width: 100%; max-width: 400px; text-align: center; }
+
+        h1 { font-size: 1.8rem; margin: 0; font-weight: 800; }
+        .bio { font-size: 0.9rem; opacity: 0.6; margin: 10px 0 40px; }
+
+        .links { display: flex; flex-direction: column; gap: 10px; }
+
+        .link-card {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: var(--card);
+            padding: 16px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 600;
+            border: 1px solid #334155;
+            transition: 0.2s;
+        }
+
+        .link-card:hover {
+            border-color: var(--accent);
+            background: #26334d;
+            transform: translateX(5px);
+        }
+
+        .flag { font-size: 1.2rem; min-width: 25px; }
+        .country-name { flex-grow: 1; text-align: left; }
+        .country-code { opacity: 0.5; font-weight: 400; font-size: 0.9rem; }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>SITE PARA PESQUISAR NÚMEROS DE TODOS OS PAÍSES</h1>
+            <p class="bio">Selecione um país para pesquisar</p>
+        </header>
+
+        <div class="links">
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇦🇺</span> <span class="country-name">Australia <span class="country-code">(+61)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇧🇷</span> <span class="country-name">Brazil <span class="country-code">(+55)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇨🇦</span> <span class="country-name">Canada <span class="country-code">(+1)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇩🇰</span> <span class="country-name">Denmark <span class="country-code">(+45)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇪🇬</span> <span class="country-name">Egypt <span class="country-code">(+20)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇫🇷</span> <span class="country-name">France <span class="country-code">(+33)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇩🇪</span> <span class="country-name">Germany <span class="country-code">(+49)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇭🇺</span> <span class="country-name">Hungary <span class="country-code">(+36)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇮🇩</span> <span class="country-name">Indonesia <span class="country-code">(+62)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇯🇵</span> <span class="country-name">Japan <span class="country-code">(+81)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇰🇪</span> <span class="country-name">Kenya <span class="country-code">(+254)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇱🇦</span> <span class="country-name">Laos <span class="country-code">(+856)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇲🇾</span> <span class="country-name">Malaysia <span class="country-code">(+60)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇳🇱</span> <span class="country-name">Netherlands <span class="country-code">(+31)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇴🇲</span> <span class="country-name">Oman <span class="country-code">(+968)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇵🇭</span> <span class="country-name">Philippines <span class="country-code">(+63)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇶🇦</span> <span class="country-name">Qatar <span class="country-code">(+974)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇷🇺</span> <span class="country-name">Russia <span class="country-code">(+7)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇸🇬</span> <span class="country-name">Singapore <span class="country-code">(+65)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇹🇭</span> <span class="country-name">Thailand <span class="country-code">(+66)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇺🇸</span> <span class="country-name">United States <span class="country-code">(+1)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇻🇳</span> <span class="country-name">Vietnam <span class="country-code">(+84)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇼🇸</span> <span class="country-name">Western Samoa <span class="country-code">(+685)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇽🇰</span> <span class="country-name">Kosovo <span class="country-code">(+383)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇾🇪</span> <span class="country-name">Yemen <span class="country-code">(+967)</span></span></a>
+            <a href="https://sfl.gl/qAGVD8jf" class="link-card"><span class="flag">🇿🇦</span> <span class="country-name">Zimbabwe <span class="country-code">(+263)</span></span></a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 MyWebsite. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>
